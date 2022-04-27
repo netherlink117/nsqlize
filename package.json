@@ -1,0 +1,29 @@
+{
+  "name": "@netherlink117/nsqlize",
+  "version": "2.0.2",
+  "description": "NSQLize is a small and basic module that brings functions to work with sql databases on node.",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netherlink117/nsqlize.git"
+  },
+  "main": "nsqlize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SQL",
+    "NSQLize",
+    "nsqlize"
+  ],
+  "author": "Daniel Gutierrez <netherlink@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
